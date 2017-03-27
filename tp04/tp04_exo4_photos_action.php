@@ -80,7 +80,6 @@ if(isset($_FILES["image3"]))
     rename($chemin,$chemin2);
     echo "<img src='".$chemin2."' alt=''>";
 }
-}
 
 
 ?>
