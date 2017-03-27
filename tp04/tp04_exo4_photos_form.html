@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../include/css/tp02_exo4.css">
+    <title>Title</title>
+</head>
+<body>
+<form action="tp04_exo4_photos_action.php" method="post" enctype="multipart/form-data">
+        <label for="prenom">Prenom</label><br/>
+        <input type="text" name="prenom" id="prenom"><br/>
+        <label for="nom">Nom</label><br/>
+        <input type="text" name="nom" id="nom"><br/>
+        <label for="email">Email</label><br/>
+        <input type="email" name="email" id="email"><br/>
+        <label for="image1">Image 1</label><br/>
+        <input type="file" name="image1" id="image1"><br/>
+        <label for="image2">Image 2</label><br/>
+        <input type="file" name="image2" id="image2" accept="image/*"><br/>
+        <label for="image3">Image 3</label><br/>
+        <input type="file" name="image3" id="image3" accept="image/*"><br/>
+    <button type="submit">Submit</button>
+
+</form>
+<img src="../include/image/cath.png" alt="Smiley face" height="42" width="42">
+</body>
+</html>

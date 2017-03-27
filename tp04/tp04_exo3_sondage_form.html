@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../include/css/tp02_exo4.css">
+    <title>Title</title>
+</head>
+<body>
+<form action="tp04_exo3_sondage_action.php" method="get">
+    <section>
+        <label for="prenom">Prenom</label><br/>
+        <input type="text" name="prenom" id="prenom"><br/>
+        <label for="nom">Nom</label><br/>
+        <input type="text" name="nom" id="nom"><br/>
+    </section>
+    <section>
+        <input type="radio" name="sexe" value="femme"> Femme<br>
+        <input type="radio" name="sexe" value="homme"> Homme<br>
+    </section>
+    <section>
+        <input type="checkbox" name="operateur" value="free">Free<br>
+        <input type="checkbox" name="operateur" value="orange" >Orange<br>
+        <input type="checkbox" name="operateur" value="bouygue" >Bouygues<br>
+    </section>
+    <select name="select">
+        <option value="internet">Internet illimité</option>
+        <option value="sms">SMS illimité</option>
+        <option value="appel">Appel Illimité</option>
+    </select><br>
+    <section>
+        <input type="radio" name="prix" value="dix"> 10 euros<br/>
+        <input type="radio" name="prix" value="vingt"> 20 euros<br>
+        <input type="radio" name="prix" value="trente"> 30 euros<br>
+        <input type="radio" name="prix" value="quarante"> 40 euros<br/>
+        <input type="radio" name="prix" value="cinquante"> 50 euros<br>
+        <input type="radio" name="prix" value="soixante"> 60 euros<br/>
+    </section>
+    <button type="submit">Submit</button>
+
+</form>
+
+</body>
+</html>
